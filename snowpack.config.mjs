@@ -4,6 +4,10 @@ export default {
     public: { url: '/', static: true },
     src: { url: '/dist' },
   },
+  alias: {
+    react: 'preact/compat',
+    'react-dom': 'preact/compat',
+  },
   plugins: [
     '@prefresh/snowpack',
     '@snowpack/plugin-dotenv',
