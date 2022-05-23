@@ -1,6 +1,16 @@
-# New Project
+# Spectre
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+## Technologies Used
+
+- [Preact](https://preactjs.com/): Render engine
+- [Recoil](https://recoiljs.org/): Simple state management library for React
+- [Styled Components](https://styled-components.com/): Modularized css
+- [GrowthBook](https://www.growthbook.io/): Feature Flagging
+- [TypeScript](https://www.typescriptlang.org/): Types for JavaScript
+- [ArcGIS for JavaScript](https://developers.arcgis.com/javascript/latest/): Mapping and geospatial components
+- [Shoelace](https://shoelace.style/): Forward thinking web components
 
 ## Available Scripts
 
