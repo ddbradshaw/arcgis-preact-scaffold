@@ -1,9 +1,11 @@
 import { h } from 'preact';
 import styled from 'styled-components';
 import { useEffect } from 'preact/hooks';
-import { initialize } from '../Map';
+import { initialize } from '../data/Map';
+import { useRecoilValue } from 'recoil';
+import { getLocation } from '../state/MapState';
 
-const MapContainer = styled.div`
+const Container = styled.div`
   padding: 0;
   margin: 0;
   height: 100%;
@@ -14,11 +16,12 @@ const MapContainer = styled.div`
 `;
 
 const MapView = () => {
+  const defaultLocation = useRecoilValue(getLocation);
   useEffect(() => {
-    initialize('map');
+    initialize('map', defaultLocation);
   }, []);
 
-  return <MapContainer id="map"></MapContainer>;
+  return <Container id="map"></Container>;
 };
 
 export default MapView;

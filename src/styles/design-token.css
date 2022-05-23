@@ -1,0 +1,12 @@
+/* Learn more: https://github.com/design-tokens/community-group#design-tokens */
+/* https://www.smashingmagazine.com/2018/05/css-custom-properties-strategy-guide/ */
+
+:root {
+  --color-ufo-green: #91cd43;
+  --color-hadopelagic-water: #04041f;
+  --color-long-haul-flight: #052176;
+  --color-deep-sky-blue: #0e7de8;
+  --color-aircraft-white: #eff2f9;
+  --color-dark-background: #282828;
+  --color-light-background: #fff;
+}
